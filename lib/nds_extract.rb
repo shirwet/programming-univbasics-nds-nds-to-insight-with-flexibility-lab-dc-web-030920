@@ -52,6 +52,7 @@ def movies_with_director_key(name, movies_collection)
   collection = []
   :title => movie_data[:title],
   :worldwide_gross => movie_data[:worldwide_gross],
+  :release_year => movie_data[:release_year],
   
 end
 
